@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "news24",
+                "name": "News24"
+            },
+            "author": "Sport24 Staff",
+            "title": "BREAKING | Cricket SA confirms 2 000 vaccinated fans return to stadiums for T20 Cup",
+            "description": "Cricket South Africa confirmed that ticket sales would commence on Monday for 2 000 vaccinated fans to enjoy live cricket in the country for the first time since Australia toured here in February and March last year.",
+            "url": "https://www.news24.com/sport/Cricket/Proteas/breaking-cricket-sa-confirms-2-000-vaccinated-fans-return-to-stadiums-for-t20-cup-20211017",
+            "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/11057/2ddc7f17bf9c439db1f25484b4ff5962.jpg",
+            "publishedAt": "2021-10-17T08:57:22+00:00",
+            "content": "As soon as this Tuesday, cricket fans will make their\r\nlong-awaited return to the stands during the Provincial T20 Cup that has\r\nentered the quarter-final stages.\r\nCricket South Africa (CSA) confirme… [+4213 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Cricket: What you need to know about T20 World Cup 2021",
+            "description": "Past winners, tournament format, and update on DRS and Super Over. Your guide to the ICC Men’s T20 World Cup 2021.",
+            "url": "http://www.aljazeera.com/sports/2021/10/17/all-you-need-to-know-about-icc-mens-t20-world-cup-2021",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2021/10/The-ICC-Mens-T20-World-Cup-2021-trophy-at-The-Louvre-Abu-Dhabi-ahead-of-the-ICC-Mens-T20-World-Cup-2021-that-begins-on-Sunday-17-October-in-UAE-and-Oman_.jpg?resize=1200%2C630",
+            "publishedAt": "2021-10-17T06:20:56Z",
+            "content": "The rescheduled ICC Mens T20 World Cup 2021 will be taking place in Oman and the United Arab Emirates from Sunday, October 17.\r\nWest Indies are the defending champions, having lifted the trophy for t… [+2844 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
