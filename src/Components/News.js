@@ -9,13 +9,11 @@ export class News extends Component {
 
     defaultprops = {
         country: 'in',
-        pageSize: 3,
         category: 'General'
     }
 
     PropTypes = {
         country: PropTypes.string,
-        pageSize: PropTypes.number,
         category: PropTypes.string
     }
 
@@ -24,7 +22,6 @@ export class News extends Component {
         this.state = {
             articles: [],
             loading: true,
-            page: 1,
             totalResults: 0
         }
         document.title = `${this.props.category} - NewsMonkey`
@@ -32,7 +29,7 @@ export class News extends Component {
 
     async componentDidMount() {
         this.props.setprogress(10)
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=efa6ba9b7b7743db963bce14eaccc4fd&page=${this.props.page}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=efa6ba9b7b7743db963bce14eaccc4fd`;
         this.setState({ loading: true })
         this.props.setprogress(30)
         let data = await fetch(url);
@@ -48,8 +45,7 @@ export class News extends Component {
     }
 
     fetchMoreData = async () => {
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=efa6ba9b7b7743db963bce14eaccc4fd&page=${this.props.page + 1}&pageSize=${this.props.pageSize}`;
-        this.setState({ page: this.state.page + 1})
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=efa6ba9b7b7743db963bce14eaccc4fd`;
         let data = await fetch(url);
         let parsedData = await data.json()
         this.setState({
@@ -61,7 +57,7 @@ export class News extends Component {
     render() {
         return (
             <>
-                <h1 className="text-center" style={{margin: '59px' }}>News Monkey Top Hedlines from {this.props.category}</h1>
+                <h1 className="text-center" style={{ margin: '59px' }}>News Monkey Top Hedlines from {this.props.category}</h1>
                 <hr />
                 {this.state.loading && <Spinner />}
                 <InfiniteScroll
@@ -72,7 +68,7 @@ export class News extends Component {
                     <div className="container">
                         <div className="row">
                             {this.state.articles.map((element) => {
-                                return <div className="col-md-4" key={element.url}>
+                                return <div className="col-md-4" key={element.title}>
                                     <Newsitem title={!element.title ? "" : element.title} discription={!element.discription ? element.description : ""}
                                         imgUrl={element.urlToImage} url={element.url} author={element.author} dt={element.publishedAt} source={element.source.name} />
                                 </div>
