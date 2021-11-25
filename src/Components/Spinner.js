@@ -10,5 +10,5 @@ export class Spinner extends Component {
         )
     }
 }
-
+// hii rihil sanghani is added   
 export default Spinner
